@@ -1,10 +1,6 @@
 import pygame, sys, time, random
 from pygame import freetype
 
-#game_font = pygame.freetype.Font("Font.ttf", 75)
-#text_surface, rect = game_font.render(("Programmer: 8BitToaster"), (0, 0, 0))
-#gameDisplay.blit(text_surface, (150, 300))
-
 # Initialize the game engine
 pygame.init()
 
