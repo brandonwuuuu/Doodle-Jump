@@ -7,7 +7,6 @@ Doodly Jump is a simple arcade-style platformer built using Python and Pygame. I
 - **Dynamic Gameplay**: Platforms are randomly generated for an engaging and unpredictable experience.
 - **Customization**: Players can choose their character's color, including a "rainbow" option for a vibrant effect.
 - **Score Tracking**: Keeps track of the highest score achieved during gameplay.
-- **Credits Screen**: A dedicated section to acknowledge the developer.
 
 ## Installation
 To play the game, you need to have Python and Pygame installed on your system.
