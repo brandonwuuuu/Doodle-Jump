@@ -9,7 +9,7 @@ DisplayWidth,DisplayHeight = 800, 800
 clock = pygame.time.Clock()
 
 gameDisplay = pygame.display.set_mode((DisplayWidth,DisplayHeight))
-pygame.display.set_caption("Jumpy Game")
+pygame.display.set_caption("Doodly Jump")
 game_font = pygame.freetype.Font("Font.ttf", 24)
 
 global CurColor
@@ -86,7 +86,7 @@ def MainScreen():
         draw(0,0,"Overlay")
 
         game_font = pygame.freetype.Font("Font.ttf", 75)
-        text_surface, rect = game_font.render(("Jumpy Game"), (0, 0, 0))
+        text_surface, rect = game_font.render(("Doodly Jump"), (0, 0, 0))
         gameDisplay.blit(text_surface, (250, 200))
         game_font = pygame.freetype.Font("Font.ttf", 25)
         text_surface, rect = game_font.render(("Highscore: " + str(HighScore)), (0, 0, 0))
